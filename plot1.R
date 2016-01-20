@@ -1,8 +1,7 @@
 library(data.table)
-pathProject <- "C:/Users/vlasenko/YandexDisk/R_Programming/ExData_Plotting1"
-#pathProject <- setwd(choose.dir(getwd(), caption = "Choose folder with the Project"))
-pathData <- pathProject 
-#pathProject <- setwd(choose.dir(getwd(), caption = "Choose folder with the Data"))
+setwd(choose.dir(getwd(), caption = "Choose folder with the Project"))
+pathProject <- getwd()
+pathData <- pathProject  # <- setwd(choose.dir(getwd(), caption = "Choose folder with the Data"))
 setwd(pathProject)
 png(file="plot1.png",width=480,height=480) 
 
