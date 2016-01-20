@@ -17,3 +17,4 @@ data2$date2 <- as.POSIXct(data2$date2,format ="%Y-%m-%d %H:%M:%S")
 
 plot(data2$date2,data2$Global_active_power,type="l",xlab="",ylab="Global Active Power (kilowatts)")
 dev.off()
+ 

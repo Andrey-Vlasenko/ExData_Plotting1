@@ -24,3 +24,4 @@ lines(data2$date2,data2$Sub_metering_3,type="l",xlab="",ylab="Energy sub meterin
 legend("topright", c("Sub_metering_1","Sub_metering_2","Sub_metering_3"),bty = "n",lwd=c(2.5,2.5),col=c("black","red","blue"))
 plot(data2$date2,data2$Global_reactive_power,type="l",xlab="datetime",ylab="Global_reactive_power")
 dev.off()
+ 

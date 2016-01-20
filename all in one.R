@@ -20,8 +20,7 @@ dev.off()
 
 
 
-
-library(data.table)
+#library(data.table)
 #setwd(choose.dir(getwd(), caption = "Choose folder with the Project"))
 #pathProject <- getwd()
 #pathData <- pathProject  # <- setwd(choose.dir(getwd(), caption = "Choose folder with the Data"))
@@ -45,7 +44,7 @@ dev.off()
 
 
 
-library(data.table)
+#library(data.table)
 #setwd(choose.dir(getwd(), caption = "Choose folder with the Project"))
 #pathProject <- getwd()
 #pathData <- pathProject  # <- setwd(choose.dir(getwd(), caption = "Choose folder with the Data"))
@@ -71,7 +70,7 @@ dev.off()
 
 
 
-library(data.table)
+#library(data.table)
 #setwd(choose.dir(getwd(), caption = "Choose folder with the Project"))
 #pathProject <- getwd()
 #pathData <- pathProject  # <- setwd(choose.dir(getwd(), caption = "Choose folder with the Data"))
